@@ -33,3 +33,11 @@ Next we show a scatterplot of `y` vs `x`.
 ```{r yx_scatter}
 ggplot(plot_df, aes(x = x, y = y)) + geom_point()
 ```
+
+
+```{r basic0}
+usethis::create_github_token()
+gitcreds::gitcreds_set()
+  
+```
+
